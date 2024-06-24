@@ -3,184 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iftikhar Ahmad - Portfolio</title>
+    <title>Iftikhar Ahmad - MERN Stack Developer</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="logo">Iftikhar Ahmad</div>
-        <nav>
-            <ul class="nav-links">
+    <div class="header">
+        <div class="logo">
+            <h1>Iftikhar Ahmad</h1>
+            <span class="tagline">Web Developer</span>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="hamburger">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
-        </nav>
-    </header>
-
-    <section id="hero">
-        <div class="hero-content">
-            <h1>Iftikhar Ahmad - MERN Stack Developer</h1>
-            <p>Creating Seamless Web Experiences with MongoDB, Express, React, and Node.js</p>
-            <div class="cta-buttons">
-                <button onclick="window.location.href='#projects'">View My Work</button>
-                <button onclick="window.location.href='#contact'">Contact Me</button>
-            </div>
         </div>
-    </section>
-
-    <section id="about">
-        <div class="about-container">
-            <img src="images/hero.png" alt="Iftikhar Ahmad" class="profile-picture">
-            <div class="about-text">
-                <h2>About Me</h2>
-                <p>Hello! I'm Iftikhar Ahmad, a passionate MERN Stack developer with a strong background in creating dynamic and responsive web applications. With a keen eye for detail and a commitment to excellence, I strive to deliver top-notch solutions that meet and exceed client expectations.</p>
-                <p>I have experience working with various technologies and tools, and I am always eager to learn and adapt to new challenges. My goal is to create seamless and engaging user experiences through clean, efficient, and maintainable code.</p>
-            </div>
+        <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-    </section>
-
-        <!-- Skills Section -->
-        <section id="skills">
-            <div class="skills-container">
-                <h2>Skills</h2>
-                <div class="skills-grid">
-                    <div class="skill">
-                        <h3>HTML & CSS</h3>
-                        <div class="skill-bar" style="width: 90%;"></div>
-                    </div>
-                    <div class="skill">
-                        <h3>JavaScript</h3>
-                        <div class="skill-bar" style="width: 85%;"></div>
-                    </div>
-                    <div class="skill">
-                        <h3>React</h3>
-                        <div class="skill-bar" style="width: 80%;"></div>
-                    </div>
-                    <div class="skill">
-                        <h3>Node.js</h3>
-                        <div class="skill-bar" style="width: 75%;"></div>
-                    </div>
-                    <div class="skill">
-                        <h3>Express</h3>
-                        <div class="skill-bar" style="width: 70%;"></div>
-                    </div>
-                    <div class="skill">
-                        <h3>MongoDB</h3>
-                        <div class="skill-bar" style="width: 65%;"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="projects-container">
-            <h2>Projects</h2>
-            <div class="projects-grid">
-                <div class="project">
-                    <img src="images/project1.jpg" alt="Project 1">
-                    <div class="project-info">
-                        <h3>Meta verfied Clone</h3>
-                        <p>In This project use JavaScript function no one can see the Source code of the website.</p>
-                    </div>
-                </div>
-                <div class="project">
-                    <img src="images/project2.jpg" alt="Project 2">
-                    <div class="project-info">
-                        <h3>Side Menu-Bar</h3>
-                        <p>This project is a side Menu-bar using pure HTML CSS.</p>
-                    </div>
-                </div>
-                <div class="project">
-                    <img src="images/project3.jpg" alt="Project 3">
-                    <div class="project-info">
-                        <h3>Facebook xs_user Collector</h3>
-                        <p>This project is a using HTML, CSS, JS, SQL. when user Give's the right Information then user go to the next page other wise promp popup</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    </div>    
     
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Hi, I'm <span class="typed-text"></span><span class="typing-cursor"></span></h1>
+        <p class="subheadline">A Passionate MERN Stack Developer</p>
+        <a href="#projects" class="cta-btn">View My Work</a>
+    </div>
+</section>
+<!-- About Me Section -->
+<section id="about" class="about">
+    <div class="container">
+        <div class="profile-pic">
+            <img src="images/hero.png" alt="Iftikhar Ahmad">
+        </div>
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>Hello! I'm Iftikhar Ahmad, a passionate MERN stack developer with experience in creating dynamic and responsive web applications. I enjoy turning complex problems into simple, beautiful, and intuitive designs. When I'm not coding, you'll find me exploring new technologies or spending time with family and friends.</p>
+            <a href="path/to/your/resume.pdf" class="btn-download" download>Download Resume</a>
+        </div>
+    </div>
+</section>
 
-    <!-- Other sections like header, hero, about, projects, skills -->
+<!-- Skills Section -->
+<section id="skills" class="skills">
+    <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill">
+                <img src="images/mongo.png" alt="MongoDB">
+                <p>MongoDB</p>
+            </div>
+            <div class="skill">
+                <img src="images/express.png" alt="Express.js">
+                <p>Express.js</p>
+            </div>
+            <div class="skill">
+                <img src="images/react.png" alt="React.js">
+                <p>React.js</p>
+            </div>
+            <div class="skill">
+                <img src="images/node.png" alt="Node.js">
+                <p>Node.js</p>
+            </div>
+            <!-- Add more skills as needed -->
+        </div>
+    </div>
+</section>
 
-    <section id="testimonials">
-        <div class="testimonials-container">
-            <h2>Testimonials</h2>
-            <div class="testimonial-card">
+<!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-list">
+            <div class="project">
+                <img src="images/project2.jpg" alt="Project 1">
+                <h3>Side Menu-Bar</h3>
+                <p>This project is a side Menu-bar using pure HTML CSS.</p>
+                <a href="https://github.com/Iftikhar4500/mini-Project.git" class="project-link" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project">
+                <img src="images/project1.jpg" alt="Project 2">
+                <h3>Meta verfied Clone</h3>
+                <p>This project is a using HTML, CSS, JS, SQL. when user Give's the right Information then user go to the next page other wise promp popup</p>
+                <a href="https://github.com/Iftikhar4500/Meta-Verified-Clone.git" class="project-link" target="_blank">View on GitHub</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="testimonials">
+    <div class="container">
+        <h2>Testimonials</h2>
+        <div class="testimonials-list">
+            <div class="testimonial">
                 <img src="images/profile1.jpg" alt="Client 1">
-                <div class="testimonial-content">
-                    <p>"Iftikhar's expertise in MERN stack development is unmatched. His ability to create seamless and efficient web applications is impressive. Highly recommend!"</p>
-                    <h3>Sophia Chen</h3>
-                    <p class="client-position">Company: Quantum Innovations</p>
-                </div>
+                <blockquote>
+                    "Iftikhar Ahmad is a phenomenal developer. His attention to detail and dedication to quality is unmatched."
+                </blockquote>
+                <p class="client-name">- Sophia Chen</p>
             </div>
-            <div class="testimonial-card">
-                <img src="images/profile2.jpeg" alt="Client 2">
-                <div class="testimonial-content">
-                    <p>"Working with Iftikhar was a pleasure. His dedication and attention to detail ensured our project was completed on time and exceeded our expectations."</p>
-                    <h3>Ethan Blackwood</h3>
-                    <p class="client-position">Company: Stellar Solutions</p>
-                </div>
+            <div class="testimonial">
+                <img src="images/profile3.jpeg" alt="Client 2">
+                <blockquote>
+                    "Working with Iftikhar was an absolute pleasure. He delivered everything on time and exceeded our expectations."
+                </blockquote>
+                <p class="client-name">- Ethan Blackwood</p>
             </div>
-            <div class="testimonial-card">
-                <img src="images/profile3.jpeg" alt="Client 3">
-                <div class="testimonial-content">
-                    <p>"Iftikhar's skills in web development are top-notch. He consistently delivers high-quality work and is always willing to go the extra mile."</p>
-                    <h3>Jhon</h3>
-                    <p class="client-position">Company: NexaTech Group</p>
-                </div>
-            </div>
+            <!-- Add more testimonials as needed -->
         </div>
-    </section>
+    </div>
+</section>
+
+<!-- Blog Section
+<section id="blog" class="blog">
+    <div class="container">
+        <h2>Blog</h2>
+        <div class="blog-list">
+            <div class="blog-post">
+                <img src="path/to/blog1-image.jpg" alt="Blog Post 1">
+                <h3>Blog Post Title 1</h3>
+                <p>A brief description of Blog Post 1.</p>
+                <a href="https://yourblog.com/blog-post-1" class="blog-link" target="_blank">Read More</a>
+            </div>
+            <div class="blog-post">
+                <img src="path/to/blog2-image.jpg" alt="Blog Post 2">
+                <h3>Blog Post Title 2</h3>
+                <p>A brief description of Blog Post 2.</p>
+                <a href="https://yourblog.com/blog-post-2" class="blog-link" target="_blank">Read More</a>
+            </div>
+        -->
+            <!-- Add more blog posts as needed 
+        </div>
+    </div>
+</section>
+-->
 
 
-    <section id="contact">
-        <div class="contact-container">
-            <h2>Contact Me</h2>
-            <div class="contact-form">
-                <form action="#" method="POST">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-                    <button type="submit">Send Message</button>
-                </form>
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form action="path/to/your/form-handler" method="POST" class="contact-form">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Your Name" required>
             </div>
-        </div>
-    </section>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+    </div>
+</section>
 
-    <footer class="dark-theme">
-        <div class="footer-container">
-            <div class="footer-info">
-                <h3>Contact Me</h3>
-                <p>If you have any questions or inquiries,<br> feel free to reach out. <br>I'd love to hear from you!</p>
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/yourusername" target="_blank">
+                    <img src="path/to/github-icon.png" alt="GitHub">
+                </a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank">
+                    <img src="path/to/linkedin-icon.png" alt="LinkedIn">
+                </a>
+                <a href="https://twitter.com/yourusername" target="_blank">
+                    <img src="path/to/twitter-icon.png" alt="Twitter">
+                </a>
+                <!-- Add more social links as needed -->
             </div>
-            <div class="footer-contact">
-                <h3>Contact Information</h3>
-                <p>Email: ia4511748@gmail.com</p>
-            </div>
-            <div class="footer-social">
-                <h3>Connect with Me</h3>
-                <ul>
-                    <li><a href="https://www.instagram.com/iftikhar.ahmad.5" class="social-link">Instagram</a></li>
-                    <li><a href="https://www.linkedin.com/in/iftikhar-ahmad-44705b249/" class="social-link">LinkedIn</a></li>
-                    <li><a href="https://github.com/Iftikhar4500" class="social-link">GitHub</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="copyright">
             <p>&copy; 2024 Iftikhar Ahmad. All rights reserved.</p>
         </div>
-    </footer>
+    </div>
+</footer>
 
 <script src="js/scripts.js"></script>
 </body>
